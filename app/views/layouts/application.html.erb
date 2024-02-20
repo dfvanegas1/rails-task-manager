@@ -12,5 +12,8 @@
 
   <body>
     <%= yield %>
+    <%= link_to "Back to all tasks",
+  tasks_path(@task)
+%>
   </body>
 </html>
